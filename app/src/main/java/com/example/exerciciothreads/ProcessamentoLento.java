@@ -29,7 +29,12 @@ public class ProcessamentoLento extends Activity {
 //            @Override
 //            public void run() {
 //                SystemClock.sleep(15000);
-//                textView.setText(R.string.finalizado);
+//                runOnUiThread(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        textView.setText(R.string.finalizado);
+//                    }
+//                });
 //            }
 //        };
 //
