@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExercicioThreads</string>
+    <string name="finalizado">Processamento terminado</string>
+</resources>
